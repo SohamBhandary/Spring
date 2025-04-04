@@ -1,7 +1,8 @@
 package org.example;
 
 public class Alien {
-    in
+    int age;
+
 
    public Alien(){
        System.out.println("object created");

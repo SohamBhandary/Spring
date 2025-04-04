@@ -6,7 +6,7 @@
            http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- Define the Alien bean -->
-    <bean id="alien1" class="org.example.Alien">
+    <bean id="alien1" class="org.example.Alien" scope="prototype">
 
     </bean>
 
