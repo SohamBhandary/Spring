@@ -9,8 +9,8 @@ public class App
     public static void main( String[] args )
     {
         ApplicationContext context= new ClassPathXmlApplicationContext("spring.xml");
-        Alien a = (Alien) context.getBean("alien");
-        a.code();
+        Alien a = (Alien) context.getBean("alien1");
+//        a.code();
 
 
 

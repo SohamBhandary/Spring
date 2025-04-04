@@ -6,8 +6,13 @@
            http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- Define the Alien bean -->
-    <bean id="alien" class="org.example.Alien">
+    <bean id="alien1" class="org.example.Alien">
 
     </bean>
+
+    <bean id="lap" class="org.example.Laptop">
+
+    </bean>
+
 
 </beans>
