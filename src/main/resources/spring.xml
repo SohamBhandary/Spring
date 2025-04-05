@@ -6,11 +6,15 @@
            http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- Define the Alien bean -->
-    <bean id="alien1" class="org.example.Alien" scope="prototype">
+    <bean id="alien1" class="org.example.Alien" >
+        <constructor-arg value="21"/>
+        <constructor-arg ref="lap1"/>
+<!--        <property name="lap" ref="lap1"></property>-->
 
     </bean>
 
-    <bean id="lap" class="org.example.Laptop">
+
+    <bean id="lap1" class="org.example.Laptop">
 
     </bean>
 
